@@ -34,3 +34,12 @@ There are five disticnt ways of going up the stars:
 * Taking a 1 step, then a 2 step then a 1 step.
 * Taking a 2 step then a 1 step twice.
 * Taking a 1 step twice and then a 2 step.
+
+At this point I realized that the question was basically asking the number of ways we can make n from combinations of 1 and 2. For example if we try to make 4 we have five different ways. Two come from using only 1's and the other from only 2's but then there are three ways that come from the distinct arrangements of (1, 1, 2).  
+
+I can do this by using factorials: 
+Using the following formula I can find how many ways I can arrange an arbitrary number of 1s and 2s.
+
+<p align="center">
+  <img src="https://i.imgur.com/icbSrEU.png" >
+</p>
