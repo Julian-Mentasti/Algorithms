@@ -43,3 +43,12 @@ Using the following formula I can find how many ways I can arrange an arbitrary 
 <p align="center">
   <img src="https://i.imgur.com/icbSrEU.png" >
 </p>
+
+
+if we use n to equal five then there are a total of eight combinations of 1's and 2's to make five. 
+* Taking a 1 step five times
+* Taking a 1 set three times and a 2 step one time (A total of four combinations)
+* Taking a 1 step one time and a 2 step two times. (A total of three combinations)
+This can be done using the formula above. 
+
+### So now its time to write it in an algorithm. 
