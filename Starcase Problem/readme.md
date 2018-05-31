@@ -51,4 +51,28 @@ if we use n to equal five then there are a total of eight combinations of 1's an
 * Taking a 1 step one time and a 2 step two times. (A total of three combinations)
 This can be done using the formula above. 
 
-### So now its time to write it in an algorithm. 
+### So now its time to write it in an algorithm:
+``python
+def num_ways(n):
+    head = 0
+    counter = 0
+    u = 0
+    d = 0
+    i = 0
+    if (n == 0):
+        return counter
+    if (n%2 != 0):
+        head = 1
+    print(head, "head")
+    while (i*2-n-head != 0):
+            print(i*2-n-head, "while")
+            u = (n - (2*i))
+            print(u)
+            d = i
+            print(d)
+            i += 1
+            counter += math.factorial(u + d)/(math.factorial(u)*math.factorial(d))
+            print(counter, "counter")
+    print(i * 2 - n - head)
+    return counter + ((1 - head))
+    ```
