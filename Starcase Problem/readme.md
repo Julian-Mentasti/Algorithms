@@ -52,7 +52,7 @@ if we use n to equal five then there are a total of eight combinations of 1's an
 This can be done using the formula above. 
 
 ### So now its time to write it in an algorithm:
-``python
+```python
 def num_ways(n):
     head = 0
     counter = 0
@@ -75,4 +75,5 @@ def num_ways(n):
             print(counter, "counter")
     print(i * 2 - n - head)
     return counter + ((1 - head))
-    ```
+```
+This algorithm uses the math.factorial function which is not very efficient. Theres a better and more efficient way to find the factorial of a function but I will make an enitrely new entry on it (soon...). I will do the algorithm analysis at a later date. 
