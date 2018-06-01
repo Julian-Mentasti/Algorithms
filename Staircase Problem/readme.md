@@ -73,4 +73,12 @@ def num_ways(n):
     print(i * 2 - n - head)
     return counter + ((1 - head))
 ```
-This algorithm uses the math.factorial function which is not very efficient. Theres a better and more efficient way to find the factorial of a function but I will make an enitrely new entry on it (soon...). I will do the algorithm analysis at a later date. 
+This algorithm uses the math.factorial function which is not very efficient. Theres a better and more efficient way to find the factorial of a function but I will make an enitrely new entry on it (soon...). I will do the algorithm analysis at a later date. However I have also found a recursive algorithm.
+
+```python
+numWays(n): 
+  if n = 1 return 1 
+  else if n = 2 
+    return 2 
+  else return numWays(n-1) + numWays(n-2)
+```
