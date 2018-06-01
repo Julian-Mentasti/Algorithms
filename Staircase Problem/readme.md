@@ -76,7 +76,7 @@ def num_ways(n):
 This algorithm uses the math.factorial function which is not very efficient. Theres a better and more efficient way to find the factorial of a function but I will make an enitrely new entry on it (soon...). I will do the algorithm analysis at a later date. However I have also found a recursive algorithm.
 
 ```python
-numWays(n): 
+def numWays(n): 
   if n = 1 return 1 
   else if n = 2 
     return 2 
